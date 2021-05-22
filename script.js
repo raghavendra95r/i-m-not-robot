@@ -16,7 +16,7 @@ function startGame(){
   count = 0;
   selectedImageName = "";
   currentName = "";
-  output = "";
+  output = ""; 
   var random = unshuffled[Math.floor(Math.random() * unshuffled .length)];
   console.log(random);
   unshuffled.push(random);
